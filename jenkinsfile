@@ -1,7 +1,5 @@
 node {
-   stage ('test') {
-   echo "This is triggered from Jenkinsfile" >> /tmp/aa.txt
-    		}
+   stage ('MakeDir') {
+   sh "mkdir -p /tmp/samu-dir";
+   			}
 	}
-
-	
